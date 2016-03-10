@@ -93,6 +93,7 @@ https://docs.strongloop.com/display/public/LB/Where+filter#Wherefilter-Operators
 
 #TODO
 User authentication
+https://docs.strongloop.com/display/public/LB/Registering+users
 https://docs.strongloop.com/display/public/LB/Making+authenticated+requests
 
 
