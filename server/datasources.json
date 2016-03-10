@@ -4,7 +4,10 @@
     "connector": "memory"
   },
   "psql": {
+    "database": "lb-start",
+    "password": "",
     "name": "psql",
-    "connector": "postgresql"
+    "connector": "postgresql",
+    "user": ""
   }
 }

@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node .",
     "pretest": "jshint .",
-    "posttest": "nsp check"
+    "posttest": "nsp check",
+    "migrate-db-up": "loopback-db-migrate up --datasource psql",
+    "migrate-db-down": "loopback-db-migrate down --datasource psql"
   },
   "dependencies": {
     "compression": "^1.0.3",

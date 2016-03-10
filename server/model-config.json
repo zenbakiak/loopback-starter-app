@@ -15,5 +15,11 @@
   },
   "Actor": {
     "dataSource": "db"
+  },
+  "list": {
+    "dataSource": "psql",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }
