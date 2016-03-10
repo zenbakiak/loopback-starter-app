@@ -34,9 +34,11 @@ npm install loopback-connector-postgresql --save
 ```
 then add the datasource:
 
-slc loopback:datasource
+```shell
+$ slc loopback:datasource
+```
 
-select postgres
+Select postgres
 
 run ```slc arc```
 and open your model, then click on migrate
@@ -45,26 +47,36 @@ a good tool to do this is:
 
 https://github.com/slively/loopback-db-migrate
 
-npm install -g loopback-db-migrate
+```shell
+$ npm install -g loopback-db-migrate
+```
 
 add this to package.json
+```js
 "scripts": {
   "migrate-db-up": "loopback-db-migrate up --datasource some_db_name",
   "migrate-db-down": "loopback-db-migrate down --datasource some_db_name"
 }
+```
 
 then you'll be able to use:
 
-npm run-script migrate-db-up
-npm run-script migrate-db-down
-
+```shell
+$ npm run-script migrate-db-up
+$ npm run-script migrate-db-down
+```
 
 Relationships:
 
-slc loopback:relation
+```shell
+$ slc loopback:relation
+```
 
+
+###Queries:
 https://docs.strongloop.com/display/public/LB/Querying+data
-Queries:
+
+```json
 {
   "order": "name ASC",
   "where": {
@@ -74,15 +86,15 @@ Queries:
   },
   "include": ["wishes"]
 }
+```
 
-opperators list:
+Operators list:
 https://docs.strongloop.com/display/public/LB/Where+filter#Wherefilter-Operators
 
 # loopback-starter-app
-Loopback starter app
 
-Models: 
-
+Models:
+```yaml
 list:
   name:string
   description:string
@@ -92,3 +104,4 @@ wish:
   imageurl:string
   link:string
   price:number
+``
