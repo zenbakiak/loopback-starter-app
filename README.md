@@ -91,6 +91,11 @@ https://docs.strongloop.com/display/public/LB/Querying+data
 Operators list:
 https://docs.strongloop.com/display/public/LB/Where+filter#Wherefilter-Operators
 
+#TODO
+User authentication
+https://docs.strongloop.com/display/public/LB/Making+authenticated+requests
+
+
 # loopback-starter-app
 
 Models:
