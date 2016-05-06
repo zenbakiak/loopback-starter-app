@@ -1,3 +1,7 @@
+[![Code Climate](https://codeclimate.com/github/IcaliaLabs/loopback-starter-app/badges/gpa.svg)](https://codeclimate.com/github/IcaliaLabs/loopback-starter-app)
+[![Test Coverage](https://codeclimate.com/github/IcaliaLabs/loopback-starter-app/badges/coverage.svg)](https://codeclimate.com/github/IcaliaLabs/loopback-starter-app/coverage)
+[![Issue Count](https://codeclimate.com/github/IcaliaLabs/loopback-starter-app/badges/issue_count.svg)](https://codeclimate.com/github/IcaliaLabs/loopback-starter-app)
+
 # Loopback
 
 Installation:
